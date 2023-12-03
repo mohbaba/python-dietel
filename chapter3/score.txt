@@ -1,0 +1,16 @@
+count = 0
+no_of_pass = 0
+no_of_fail = 0
+
+score = float(input("Enter student scores(Enter -1 to cancel)"))
+
+while score != -1:
+	if score > 45:
+		no_of_pass += 1
+	else:
+		no_of_fail += 1
+	score = float(input("Enter student scores(Enter -1 to cancel)"))
+
+print(f"Number of passes: {no_of_pass}")
+print(f"Number of failurec: {no_of_fail}")
+	
